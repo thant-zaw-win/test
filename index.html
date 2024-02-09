@@ -20,7 +20,7 @@
       property="og:description"
       content="Descrition is our testing !!!!!!!."
     />
-    <meta property="og:image" content="AbankOffice.jpg" />
+    <meta property="og:image" content="AbankOffice.jpg" id="ogImg" />
     <!-- URL to your image -->
 
     <!-- Optional meta tags -->
@@ -36,6 +36,8 @@
       document
         .getElementById("ogUrl")
         .setAttribute("content", window.location.href);
+
+      document.getElementById("ogImg").setAttribute("content", "aplusLogo.png");
     </script>
   </body>
 </html>
