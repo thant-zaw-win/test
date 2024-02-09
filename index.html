@@ -51,9 +51,7 @@
       // Example usage
       var paramValue = getParameterByName("paramName");
       if (paramValue) {
-        document
-          .getElementById("ogImg")
-          .setAttribute("content", "aplusLogo.png");
+        document.getElementById("ogImg").setAttribute("content", paramValue);
       }
     </script>
   </body>
